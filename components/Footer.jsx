@@ -1,5 +1,9 @@
+import FooterBlueBar from "./FooterBlueBar"
+
 function Footer() {
-    return (<footer>footer</footer>)
+    return (<footer>
+        <FooterBlueBar />
+    </footer>)
 }
 
 export default Footer
