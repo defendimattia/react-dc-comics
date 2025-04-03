@@ -1,5 +1,9 @@
+
+
 function Main() {
-    return (<main>main</main>)
+    return (<main>
+        <p>Content goes here</p>
+    </main>)
 }
 
 export default Main
