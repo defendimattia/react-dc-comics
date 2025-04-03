@@ -1,18 +1,15 @@
+/* general */
 .container {
     width: 1300px;
     margin: 0 auto;
 }
 
+/* header */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-}
-
-.selected {
-    color: #0282f9;
-    border-bottom: 4px solid #0282f9;
 }
 
 nav a {
@@ -30,17 +27,24 @@ nav img {
     height: 100px;
 }
 
+.selected {
+    color: #0282f9;
+    border-bottom: 4px solid #0282f9;
+}
+
 .menu-list {
     display: flex;
     gap: 30px;
 }
 
+/* main */
 main {
     color: #ffffff;
     background-color: #1c1c1c;
     padding: 40px 0;
 }
 
+/* footer */
 .blue-bar-footer {
     background-color: #0282f9;
     color: #ffffff;
