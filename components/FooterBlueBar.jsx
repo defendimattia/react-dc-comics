@@ -20,7 +20,7 @@ function FooterBlueBar() {
                         COMIC SHOP LOCATOR
                     </li></a>
                     <a href="#"><li>
-                        <img src="visa.svg" alt="visa" />
+                        <img src="visa.svg" alt="visa" style={{ width: '60px' }} />
                         DV POWER VISA
                     </li></a>
                 </ul>
