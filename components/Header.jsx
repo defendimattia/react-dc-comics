@@ -3,7 +3,7 @@ function Header() {
     return (<header>
         <nav className="container">
             {/* logo */}
-            <a href=""><img src="/dc-logo.png" alt="logo" /></a>
+            <a href=""><img src="dc-logo.png" alt="logo" /></a>
             {/* menu */}
             <ul className="menu-list">
                 <a href="#"><li>CHARACTERS</li></a>
