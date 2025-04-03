@@ -1,7 +1,9 @@
 
 function Header() {
     return (<header>
+        {/* logo */}
         <a href="#"><img src="" alt="logo" /></a>
+        {/* menu */}
         <ul>
             <a href="#"><li>COMICS</li></a>
             <a href="#"><li>CHARACTERS</li></a>

@@ -46,6 +46,21 @@ function Footer() {
                     </ul>
                 </div>
             </div>
+            {/*logo*/ }
+            <a href=""></a> 
+        </div>
+        <div className="footer-social-container">
+            {/* button */}
+            <a href="#">SIGN-UP NOW!</a>
+            {/* socials */}
+            <div className="social-card">
+                <a href="#">FOLLOW US</a>
+                <a href="#"><img src="" alt="facebook" /></a>
+                <a href="#"><img src="" alt="twitter" /></a>
+                <a href="#"><img src="" alt="youtube" /></a>
+                <a href="#"><img src="" alt="pinterest" /></a>
+                <a href="#"><img src="" alt="maps" /></a>
+            </div>
         </div>
     </footer>)
 }
