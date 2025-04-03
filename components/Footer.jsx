@@ -3,6 +3,7 @@ import FooterBlueBar from "./FooterBlueBar"
 function Footer() {
     return (<footer>
         <FooterBlueBar />
+        {/* links list */}
         <div className="footer-links-container">
             <div className="container">
                 <div className="link-card"><span>DC COMICS</span>
@@ -61,6 +62,7 @@ function Footer() {
                 {/* socials */}
                 <div className="social-card">
                     <a href="#">FOLLOW US</a>
+                    {/* icons */}
                     <ul>
                         <a href="#"><li><img src="footer-facebook.png" alt="facebook" /></li></a>
                         <a href="#"><li><img src="footer-twitter.png" alt="twitter" /></li></a>
