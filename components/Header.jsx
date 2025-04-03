@@ -1,7 +1,7 @@
 
 function Header() {
     return (<header>
-        <nav>
+        <nav className="container">
             {/* logo */}
             <a href=""><img src="/dc-logo.png" alt="logo" /></a>
             {/* menu */}

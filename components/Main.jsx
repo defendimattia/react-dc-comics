@@ -2,7 +2,10 @@
 
 function Main() {
     return (<main>
-        <p>Content goes here</p>
+        <div className="container">
+            <p>Content goes here</p>
+        </div>
+
     </main>)
 }
 

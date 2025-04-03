@@ -1,6 +1,9 @@
-nav {
+.container {
     width: 1300px;
     margin: 0 auto;
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +30,7 @@ nav img {
 main {
     color: #ffffff;
     background-color: #1c1c1c;
+    padding: 20px 0;
 }
 
 .blue-bar-footer {
