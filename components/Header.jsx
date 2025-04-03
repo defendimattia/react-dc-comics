@@ -7,7 +7,7 @@ function Header() {
             {/* menu */}
             <ul className="menu-list">
                 <a href="#"><li>CHARACTERS</li></a>
-                <a href="#"><li>COMICS</li></a>
+                <a href="#" className="selected"><li>COMICS</li></a>
                 <a href="#"><li>MOVIES</li></a>
                 <a href="#"><li>TV</li></a>
                 <a href="#"><li>GAMES</li></a>

@@ -10,10 +10,19 @@ nav {
 
 }
 
+.selected {
+    color: #0282f9;
+    border-bottom: 4px solid #0282f9;
+}
+
 nav a {
     color: #1c1c1c;
     font-weight: bold;
-    padding: 40px 0;
+}
+
+nav ul a {
+    padding: 60px 0;
+    border-bottom: 4px solid #ffffff;
 }
 
 nav img {
