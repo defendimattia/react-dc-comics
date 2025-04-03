@@ -54,16 +54,21 @@ function Footer() {
 
         </div>
         <div className="footer-social-container">
-            {/* button */}
-            <a href="#">SIGN-UP NOW!</a>
-            {/* socials */}
-            <div className="social-card">
-                <a href="#">FOLLOW US</a>
-                <a href="#"><img src="" alt="facebook" /></a>
-                <a href="#"><img src="" alt="twitter" /></a>
-                <a href="#"><img src="" alt="youtube" /></a>
-                <a href="#"><img src="" alt="pinterest" /></a>
-                <a href="#"><img src="" alt="maps" /></a>
+            <div className="container">
+
+                {/* button */}
+                <a href="#" id="signup-button">SIGN-UP NOW!</a>
+                {/* socials */}
+                <div className="social-card">
+                    <a href="#">FOLLOW US</a>
+                    <ul>
+                        <a href="#"><li><img src="footer-facebook.png" alt="facebook" /></li></a>
+                        <a href="#"><li><img src="footer-twitter.png" alt="twitter" /></li></a>
+                        <a href="#"><li><img src="footer-youtube.png" alt="youtube" /></li></a>
+                        <a href="#"><li><img src="footer-pinterest.png" alt="pinterest" /></li></a>
+                        <a href="#"><li><img src="footer-periscope.png" alt="periscope" /></li></a>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer >)
