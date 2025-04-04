@@ -1,11 +1,11 @@
 import HeaderMenu from "./HeaderMenu"
 
-function Header({ itemsArr }) {
+function Header() {
     return (<header>
         <nav className="container">
             {/* logo */}
             <a href=""><img src="dc-logo.png" alt="logo" /></a>
-            <HeaderMenu itemsArr={itemsArr} />
+            <HeaderMenu />
         </nav>
     </header>)
 }
