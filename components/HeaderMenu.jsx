@@ -1,58 +1,18 @@
-const arrItemsMenu = [
-    {
-        name: "characters",
-        link: "#"
-    },
-    {
-        name: "comics",
-        link: "#"
-    },
-    {
-        name: "movies",
-        link: "#"
-    },
-    {
-        name: "tv",
-        link: "#"
-    },
-    {
-        name: "games",
-        link: "#"
-    },
-    {
-        name: "collectibles",
-        link: "#"
-    },
-    {
-        name: "videos",
-        link: "#"
-    },
-    {
-        name: "fans",
-        link: "#"
-    },
-    {
-        name: "news",
-        link: "#"
-    },
-    {
-        name: "shop",
-        link: "#"
-    },
-]
+import MenuItem from "./HeaderMenuItem"
 
-function HeaderMenu() {
+
+function HeaderMenu({ itemsArr }) {
     return (<ul className="menu-list">
-        <a href="#"><li>CHARACTERS</li></a>
-        <a href="#" className="selected"><li>COMICS</li></a>
-        <a href="#"><li>MOVIES</li></a>
-        <a href="#"><li>TV</li></a>
-        <a href="#"><li>GAMES</li></a>
-        <a href="#"><li>COLLECTIBLES</li></a>
-        <a href="#"><li>VIDEOS</li></a>
-        <a href="#"><li>FANS</li></a>
-        <a href="#"><li>NEWS</li></a>
-        <a href="#"><li>SHOP</li></a>
+        <MenuItem name={itemsArr[0].name} link={itemsArr[0].link}/>
+        <MenuItem name={itemsArr[1].name} link={itemsArr[1].link}/>
+        <MenuItem name={itemsArr[2].name} link={itemsArr[2].link}/>
+        <MenuItem name={itemsArr[3].name} link={itemsArr[3].link}/>
+        <MenuItem name={itemsArr[4].name} link={itemsArr[4].link}/>
+        <MenuItem name={itemsArr[5].name} link={itemsArr[5].link}/>
+        <MenuItem name={itemsArr[6].name} link={itemsArr[6].link}/>
+        <MenuItem name={itemsArr[7].name} link={itemsArr[7].link}/>
+        <MenuItem name={itemsArr[8].name} link={itemsArr[8].link}/>
+        <MenuItem name={itemsArr[9].name} link={itemsArr[9].link}/>
     </ul>)
 
 }
