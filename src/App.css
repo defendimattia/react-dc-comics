@@ -67,7 +67,7 @@ main {
 }
 
 .footer-links-container {
-    background-image: url(../public/footer-bg.jpg);
+    background-image: url(../footer-bg.jpg);
     background-size: cover;
     padding: 50px;
     height: 450px;
