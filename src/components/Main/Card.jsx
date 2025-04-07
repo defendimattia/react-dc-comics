@@ -1,12 +1,24 @@
 import style from "./Main.module.css"
 
-function Card() {
+
+function Card(props) {
+
+    const comic = props.comic
 
     return (
         <div className={style.card}>
-            <a href="_"><img src="_" alt="_" /></a>
-            <span></span>
+
+            <a href="#">
+                <div className={style["card-img"]}>
+                    <img src={comic.thumb} alt={comic.title} />
+                </div>
+                
+                <span>{(comic.series).toUpperCase()}</span>
+            </a>
+
         </div>
+
+
     )
 
 }
