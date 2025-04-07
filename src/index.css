@@ -9,6 +9,12 @@ body {
     font-family: "Open Sans";
 }
 
+main {
+    color: #ffffff;
+    background-color: #1c1c1c;
+    padding: 40px 0;
+}
+
 img {
     display: inline-block;
 
