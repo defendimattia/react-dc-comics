@@ -1,10 +1,11 @@
 import Jumbotron from "./MainJumbotron"
+import style from "./Main.module.css"
 
 function Main() {
     return (<main>
         <Jumbotron />
-        <div className="container">
-            <p>Content goes here</p>
+        <div className={style.container}>
+            <strong className={style["current-series"]}>CURRENT SERIES</strong>
         </div>
 
     </main>)
