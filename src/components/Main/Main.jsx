@@ -6,6 +6,7 @@ function Main() {
         <Jumbotron />
         <div className={style.container}>
             <strong className={style["current-series"]}>CURRENT SERIES</strong>
+            <button className={style["load-more"]}>LOAD MORE</button>
         </div>
 
     </main>)

@@ -2,6 +2,7 @@
     width: 1300px;
     margin: 0 auto;
     position: relative;
+    text-align: center;
 }
 
 .jumbotron {
@@ -18,3 +19,16 @@
     left: 0;
     translate: 0 -50%;
 }
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.load-more {
+    background-color: #0282f9;
+    padding: 10px 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
