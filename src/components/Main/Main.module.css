@@ -8,6 +8,8 @@
 .jumbotron {
     height: 400px;
     background-image: url(../../jumbotron.jpg);
+    background-size: cover;
+
 }
 
 .current-series {
