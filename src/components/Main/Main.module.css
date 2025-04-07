@@ -1,5 +1,5 @@
 .container {
-    width: 1300px;
+    width: 1400px;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -16,7 +16,7 @@
     font-size: 25px;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -20px;
     translate: 0 -50%;
 }
 
@@ -32,3 +32,16 @@ button {
     display: inline-block;
 }
 
+.cards-container {
+    width: 1400px;
+    padding: 40px 0;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
